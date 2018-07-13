@@ -17,16 +17,12 @@ files needed:
 - runtime.txt: currently using python-3.6.6
 - Procfile: no suffix, and make sure there is no extra space and line in this file
 
+```
 heroku login
-
 cd 'corresponding directory'
-
 git add --all
-
 git commit -m 'message'
-
 git push heroku master
-
 heroku ps:scale web=1
-
 heroku open
+```
